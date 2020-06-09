@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Runtime" Version="4.3.1" />
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="4.7.0" />
+    <PackageReference Include="System.Runtime.Extensions" Version="4.3.1" />
+    <PackageReference Include="System.Runtime.InteropServices" Version="4.3.0" />
+    <PackageReference Include="System.Runtime.Loader" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Interop.UCBioBSPCOMLib">
+      <HintPath>..\..\..\..\..\..\Yago\backup\virdi\Debug32\Interop.UCBioBSPCOMLib.dll</HintPath>
+      <EmbedInteropTypes>false</EmbedInteropTypes>
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+    <Reference Include="Interop.UCSAPICOMLib">
+      <HintPath>..\..\..\..\..\..\Yago\backup\virdi\Debug32\Interop.UCSAPICOMLib.dll</HintPath>
+      <EmbedInteropTypes>false</EmbedInteropTypes>
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+
+</Project>
